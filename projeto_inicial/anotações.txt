@@ -1,0 +1,22 @@
+Esta aplicação vai usar AJAX, acrônimo de Asynchronous JavaScript and XML, é uma técnica de desenvolvimento Web que permite a criação de aplicações mais interativas
+Vamos usar o json server para simular uma API de dados
+Dentro da pasta admin, executar o npm install, que vai buscar as dependências do projeto no package.json
+Rodar json-server --watch db.json
+Ele vai dar como resposta:
+ \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/profile
+
+  Home
+  http://localhost:3000
+
+================
+Ler sobre callback em: https://blog.betrybe.com/tecnologia/callback/#:~:text=Essa%20a%C3%A7%C3%A3o%20%C3%A9%20conhecida%20como,al%C3%A9m%20de%20dificultar%20a%20compreens%C3%A3o.
+==================
+Ler sobre promise em: https://www.devmedia.com.br/javascript-promise/41205
+=================
+
