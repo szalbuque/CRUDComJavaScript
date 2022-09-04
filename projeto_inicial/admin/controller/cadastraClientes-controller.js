@@ -1,6 +1,6 @@
 // usa o data attribute data-form que está no arquivo cadastra_cliente.html
 
-import { clienteService } from "../service/cliente-service"
+import { clienteService } from "../service/cliente-service.js"
 
 const formulario = document.querySelector('[data-form]')
 formulario.addEventListener('submit', (evento) => {
@@ -9,6 +9,6 @@ formulario.addEventListener('submit', (evento) => {
     const email = evento.target.querySelector('[data-email]').value
     clienteService.criaCliente(nome,email)
     .then(()=> {
-        windows.location.href = '../telas/cadastro_concluido.html'
+        window.location.href = '../telas/cadastro_concluido.html'
     })
 })
