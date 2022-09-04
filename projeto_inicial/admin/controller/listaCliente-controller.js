@@ -1,3 +1,5 @@
+// neste arquivo está tudo que se relaciona à visualização e à API - faz a ligação
+
 import { clienteService } from '../service/cliente-service.js'
 
 // Cria uma linha com os dados carregados
